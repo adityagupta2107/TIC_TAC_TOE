@@ -33,7 +33,7 @@ function initGame(){
 }
 
 initGame();
-
+console.logs("game start");
 function swapTurn(){
     if(currPlayer==="X"){
         currPlayer="O";
